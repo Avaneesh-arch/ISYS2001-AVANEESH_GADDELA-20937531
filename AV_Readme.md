@@ -1,68 +1,73 @@
-# Smart Budget Tracker Assistant
+# 💰 Smart Budget Tracker Assistant
 
-# Project Overview
+## 📖 Project Overview
 
-My Smart Budget Tracker Assistant will be a Python-based finance application that I will be developing for the second assessment of my ISYS2001 unit.
-The project is designed to help users better understand and manage their personal finances by analysing transaction data, tracking spending habits, and providing budget insights
-through an interactive AI-powered interface.
+The Smart Budget Tracker Assistant is a Python-based finance application developed for the ISYS2001 Final Programming Project.
 
-#The application combines:
+This project is designed to help users better understand and manage their personal finances by analysing transaction data, tracking spending habits, and providing budgeting insights through an interactive AI-powered interface.
 
--Python
--Google Colab
--Gradio
--Hands-on-ai tools
--CSV transaction analysis
+The application combines:
+- Python
+- Google Colab
+- Gradio
+- CSV transaction analysis
 - AI-assisted financial guidance
 
-#The assistant allows users to:
+The assistant allows users to:
+- Upload transaction data
+- Analyse spending patterns
+- Compare expenses against a budget
+- Calculate savings goals
+- Interact with a finance chatbot
+- Receive personalised budgeting feedback
 
--Upload transaction data
--Analyse spending patterns
--compare expenses against a budget
--Calculate saving goals
--Interact with the finance chatbot
--Receive personalised budgeting feedback
+---
 
-#Project Objectives
+# 🎯 Project Objectives
 
--Develop a functional finance assistant using Python
--Apply the six-step programming methodology
--Demonstrate AI-assisted software development 
--Build an interactive Gradio-based application
--Analyse and visualise personal finance data
--Implement testing and debugging strategies
+The objectives of this project are to:
 
-#Key Features
+- Develop a functional finance assistant using Python
+- Apply the six-step programming methodology
+- Demonstrate AI-assisted software development
+- Build an interactive Gradio-based application
+- Analyse and visualise personal finance data
+- Implement testing and debugging strategies
 
-#Expense CSV Upload
+---
+
+# ⚙️ Key Features
+
+## ✅ Expense CSV Upload
 Users can upload transaction datasets for automated analysis.
 
-#Spending Analysis
+## ✅ Spending Analysis
 The application calculates:
--Total Spending
--Spending by Category
--Average Transaction Values
--Highest Spending Areas
+- Total spending
+- Spending by category
+- Average transaction values
+- Highest spending areas
 
-#Budget Tracking
+## ✅ Budget Tracking
 Users can compare their expenses against a monthly budget limit.
 
-#Savings Goals Calculator
-A Custom finance tool to estimate savings targets and timelines
+## ✅ Savings Goal Calculator
+A custom finance tool to estimate savings targets and timelines.
 
-#AI Finance Chatbot 
+## ✅ AI Finance Chatbot
 An AI-powered chatbot provides budgeting advice and financial guidance.
 
-#Retrieval-Argumented Generation (RAG)
-The assistant retrieves information from the uploaded transaction data to answer finance questions more accurately
+## ✅ Retrieval-Augmented Generation (RAG)
+The assistant retrieves information from uploaded transaction data to answer finance-related questions more accurately.
 
-#Gradio User Interface
+## ✅ Gradio User Interface
 A simple and interactive interface allows users to interact with the assistant easily.
 
-#Development Methodology 
+---
 
-In this project, I will be attempting to implement the 6-step programming methodology taught in class.
+# 🧠 Development Methodology
+
+This project follows the six-step programming methodology taught in ISYS2001:
 
 1. Understand the problem
 2. Identify inputs and outputs
@@ -73,72 +78,86 @@ In this project, I will be attempting to implement the 6-step programming method
 
 Evidence of each stage will be documented throughout the project notebook and supporting files.
 
-# Repository Structure
+---
 
+# 📂 Repository Structure
+
+```text
 AI-CONVERSATIONS/
--Screenshots, GIFs, and AI evidence packages
--Debugging conversations
--Weekly development reflections
+│
+├── Screenshots, GIFs, and AI evidence packages
+├── Debugging conversations
+└── Weekly development reflections
 
 LICENSE
--Repository license information
+│
+└── Repository license information
 
-README.md
--Project overview and setup instructions
+AV_README.md
+│
+└── Project overview and setup instructions
 
-example_diary.md
--Example structure for Developer’s Diary entries
+AV_Developer_Diary.md
+│
+└── Weekly reflections and AI collaboration evidence
 
-sample_transactions.csv
--Sample financial transaction dataset used for testing
+AV_sample_transactions.csv
+│
+└── Sample financial transaction dataset used for testing
 
-smart_finance_project.md
--Project planning, pseudocode, and design notes
+AV_smart_finance_project.md
+│
+└── Project planning, pseudocode, and design notes
 
-starter_notebook.ipynb
--Main project notebook containing:
+AV_smart_budget_tracker_assistant.ipynb
+│
+└── Main project notebook containing:
     - Data processing
     - Budget analysis
     - AI chatbot integration
     - RAG implementation
     - Gradio interface
     - Testing section
+```
 
-#How to Run the Project
+---
+
+# ▶️ How to Run the Project
 
 1. Open the notebook in Google Colab
 2. Install required Python packages
-3. Upload the sample transaction CSV files
+3. Upload the sample transaction CSV file
 4. Run notebook cells sequentially
-5. Launch the Gradio Interface
+5. Launch the Gradio interface
 
-#Required Packages
+---
+
+# 📦 Required Packages
 
 The project is expected to use:
 
-python
-pandas
-gradio
-hands-on-ai
-matplotlib
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import gradio as gr
+```
 
+---
 
-
-
-#Sample CSV Format
+# 📊 Sample CSV Format
 
 Example transaction dataset:
 
-csv
+```csv
 Date,Category,Description,Amount
 2026-04-01,Food,Groceries,65.50
 2026-04-02,Transport,Bus Fare,4.80
 2026-04-03,Entertainment,Movie Ticket,22.00
+```
 
+---
 
-
-
-#Testing & Debugging
+# 🧪 Testing & Debugging
 
 The notebook will include:
 - Function testing
@@ -147,17 +166,16 @@ The notebook will include:
 - Debugging reflections
 - AI-assisted troubleshooting examples
 
+---
 
+# 🤖 AI Collaboration
 
-# AI Collaboration
-
-AI tools such as ChatGPT, GitHub Copilot, and hands-on-ai will be used throughout development.
+AI tools such as ChatGPT and GitHub Copilot may be used throughout development.
 
 All AI interactions, debugging processes, and reflections will be documented in accordance with assignment requirements.
 
+---
 
-# Project Status
+# 🚧 Project Status
 
-Project is currently in development.
-
-
+Project currently in development.
