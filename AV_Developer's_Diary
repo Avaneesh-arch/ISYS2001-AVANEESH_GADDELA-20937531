@@ -10,7 +10,7 @@ Avaneesh Gaddela
 Project Title
 Smart Budget Tracker Assistant
 
-
+Unit
 ISYS2001 Final Programming Project
 
 ---
@@ -19,45 +19,46 @@ Purpose of This Diary
 
 This diary documents the development process of the Smart Budget Tracker Assistant project.
 
-The purpose of the diary is to:
+The purpose of this diary is to:
 - Record the progression of the project
 - Document how AI tools were used during development
-- Reflect on debugging, problem-solving, and learning experiences
+- Reflect on debugging and problem-solving experiences
 - Demonstrate responsible AI-assisted software development
 
-Throughout the project, AI tools such as ChatGPT were used as learning and support tools to:
+Throughout development, AI tools such as ChatGPT were used to:
 - Explain Python concepts
-- Improve project structure
 - Assist with debugging
-- Refine code readability
-- Generate development ideas
-- Support reflection and testing
+- Improve project structure
+- Support planning and reflection
+- Help organise the development workflow
 
-All code was reviewed, tested, modified, and implemented as part of the project development process.
+All code was reviewed, tested, modified, and implemented throughout the project development process.
 
 ---
 
-Week 9 – Project Planning and Repository Setup
+Week 10 – Project Planning and Financial Analysis Development
 
 Context
 
-During this stage of development, I focused on understanding the assignment requirements and planning the overall structure of the project.
+During this stage, I focused on understanding the assignment requirements and planning the structure of the Smart Budget Tracker Assistant project.
 
 I used AI assistance to:
-- Break the assignment into smaller stages
-- Understand the purpose of the README, planning document, and developer diary
-- Design the repository structure
-- Plan the Smart Budget Tracker Assistant features
+- Break the assignment into smaller development stages
+- Understand the project requirements
+- Design the GitHub repository structure
+- Plan the notebook layout using the six-step programming methodology
+- Develop the financial analysis features
 
 ---
 
 AI Interaction Summary
 
 AI assistance helped me:
-- Understand the difference between project planning documents and README files
-- Organise the GitHub repository professionally
-- Create a development roadmap
-- Structure the notebook using the six-step methodology
+- Understand the purpose of each repository file
+- Organise the project professionally
+- Structure the notebook logically
+- Build spending analysis calculations
+- Improve comments and explanations throughout the notebook
 
 ---
 
@@ -68,135 +69,30 @@ During this stage, I:
 - Developed the README file
 - Created the project planning document
 - Created the sample transaction dataset
-- Structured the project notebook
-- Planned the development workflow
-
----
-
-Reflection
-
-At the beginning of the project, I found the assignment overwhelming because it involved multiple project components, including CSV analysis, chatbot integration, Gradio, testing, and documentation.
-
-Breaking the project into smaller sections helped me understand how to approach the development process more effectively. I learned that planning the structure of the repository and notebook before coding made later stages of development easier to manage.
-
-This stage also helped me better understand how software projects are organised professionally.
-
----
-
-Evidence
-
-Screenshots/GIFs stored in:
-```text
-AI-CONVERSATIONS/week8/
-```
-
----
-
-Week 9/10 – CSV Processing and Spending Analysis
-
-Context
-
-During this stage, I focused on building the financial analysis functionality of the project.
-
-I used AI assistance to:
-- Understand Pandas functions
-- Load and validate CSV data
-- Build spending analysis calculations
-- Create financial visualisations
-
----
-
-AI Interaction Summary
-
-AI assistance helped explain:
-- DataFrames
-- CSV handling
-- Grouping and aggregation functions
-- Data validation techniques
-- Matplotlib chart creation
-
----
-
-What I Implemented
-
-During this stage, I:
-- Loaded transaction data into Pandas
-- Cleaned and validated the dataset
+- Structured the notebook sections
+- Loaded and validated CSV transaction data
 - Calculated total spending
 - Analysed spending by category
-- Calculated average transaction values
-- Created spending charts and visualisations
+- Created charts and visualisations
 - Built the budget tracking system
 
 ---
 
 Reflection
 
-This stage improved my understanding of how Python can process and analyse real financial data.
+At the beginning of the project, I found the assignment difficult because it involved many different components such as CSV analysis, chatbot integration, Gradio, testing, and documentation.
 
-One challenge I encountered was handling CSV loading correctly in Google Colab. I experienced file path issues when trying to load the transaction dataset directly from GitHub. After debugging the issue, I switched to manually uploading the CSV file into Colab, which solved the problem.
+Breaking the project into smaller sections made the assignment much easier to manage. One of the most important lessons I learned during this stage was the importance of planning before coding. Organising the notebook and repository structure early reduced confusion during later development stages.
 
-This experience helped me better understand how file handling works in notebook environments and why testing file paths is important during development.
+I also improved my understanding of how Python can process and analyse financial datasets using Pandas and Matplotlib.
 
----
+During development, I encountered issues with CSV loading inside Google Colab because the notebook could not automatically access the CSV file stored in GitHub. After debugging the problem, I solved the issue by manually uploading the dataset into Colab before loading it into a Pandas DataFrame.
 
-Evidence
-
-Screenshots/GIFs stored in:
-```text
-AI-CONVERSATIONS/week9/
-```
+This experience helped me better understand file handling and debugging within notebook environments.
 
 ---
 
-Week 10 – Savings Tools, Chatbot, and RAG Development
-
-Context
-
-During this stage, I focused on making the project more interactive by building the savings calculator, finance chatbot, and RAG-style retrieval system.
-
-I used AI assistance to:
-- Design chatbot logic
-- Create financial feedback functions
-- Build keyword-based responses
-- Implement transaction retrieval functionality
-
----
-
-AI Interaction Summary
-
-AI assistance helped explain:
-- Conditional logic
-- Function design
-- Keyword matching
-- User-focused outputs
-- Beginner-level chatbot implementation
-
----
-
-What I Implemented
-
-During this stage, I:
-- Built the savings goal calculator
-- Added validation to the savings tool
-- Created a finance chatbot
-- Connected chatbot responses to transaction data
-- Built a simple RAG-style retrieval function
-- Improved the assistant’s financial responses
-
----
-
-Reflection
-
-This stage helped me understand how multiple features can work together within one application.
-
-One important lesson I learned was that user-friendly output matters just as much as calculations. Instead of only returning numbers, I improved the chatbot and savings calculator to provide more meaningful financial feedback.
-
-I also learned how keyword matching can simulate basic chatbot behaviour without needing advanced AI systems.
-
----
-
-Evidence
+## 📎 Evidence
 
 Screenshots/GIFs stored in:
 ```text
@@ -205,47 +101,61 @@ AI-CONVERSATIONS/week10/
 
 ---
 
-Week 10/11 – Gradio Interface and Testing
+Week 11 – Savings Calculator, Chatbot, RAG, and Gradio Development
 
 Context
 
-During this stage, I focused on turning the notebook into an interactive finance application using Gradio.
+During this stage, I focused on making the project more interactive by developing the savings calculator, finance chatbot, RAG-style retrieval system, and Gradio interface.
 
-I also focused heavily on testing and debugging the project.
+I used AI assistance to:
+- Build beginner-level chatbot logic
+- Create reusable functions
+- Improve validation and user feedback
+- Connect project features together
+- Build the Gradio interface
 
 ---
 
 AI Interaction Summary
 
-AI assistance helped me:
-- Understand Gradio interface structure
-- Connect functions to the interface
-- Improve validation and testing
-- Debug notebook issues
+AI assistance helped explain:
+- Conditional logic
+- Function creation
+- Keyword matching
+- RAG-style retrieval concepts
+- Gradio interface structure
+- User-focused financial outputs
 
 ---
 
 What I Implemented
 
 During this stage, I:
-- Built the Gradio chatbot interface
+- Built the savings goal calculator
+- Added validation to the savings calculator
+- Created a finance chatbot
+- Connected chatbot responses to transaction data
+- Built a simple RAG-style retrieval function
+- Created the Gradio chatbot interface
 - Added the savings calculator to Gradio
 - Added the budget tracker to Gradio
-- Created the spending summary interface
-- Combined all features into a tabbed application
-- Tested the project functions using valid and invalid inputs
+- Added the spending summary interface
+- Combined all project features into a tabbed Gradio application
 
 ---
 
 Reflection
 
-One of the most important parts of this stage was testing the project carefully.
+This stage helped me better understand how different programming components can work together within a single application.
 
-I learned that even if code appears correct, problems can still occur when integrating multiple sections together. Running the notebook from top to bottom helped identify whether variables and functions were defined correctly.
+One important lesson I learned was that user-friendly outputs are just as important as calculations. Instead of only displaying numbers, I improved the savings calculator and chatbot responses so the application could provide more meaningful financial feedback.
 
-This stage also improved my confidence in debugging and validating user-focused applications.
+I also learned how simple keyword matching can simulate basic chatbot behaviour without requiring advanced AI systems.
+
+Building the Gradio interface was one of the most rewarding parts of the project because it transformed the notebook from a collection of calculations into a more interactive finance assistant application.
 
 ---
+
 Evidence
 
 Screenshots/GIFs stored in:
@@ -255,46 +165,56 @@ AI-CONVERSATIONS/week11/
 
 ---
 
-Week 11/12 – Final Polish and Reflection
+Week 12 – Testing, Debugging, Reflection, and Final Polish
 
 Context
 
-During the final stage of development, I focused on polishing the project, improving reflections, organising the repository, and preparing the final submission.
+During the final stage of development, I focused on testing, debugging, refining reflections, organising the repository, and preparing the final submission.
+
+I used AI assistance to:
+- Improve reflection quality
+- Refine testing explanations
+- Improve notebook readability
+- Debug project issues
+- Finalise documentation
 
 ---
 
 AI Interaction Summary
 
 AI assistance helped me:
-- Improve reflection quality
-- Strengthen documentation
-- Improve readability
-- Refine testing explanations
-- Finalise the project structure
+- Strengthen the testing section
+- Improve validation logic
+- Refine notebook reflections
+- Improve repository organisation
+- Finalise the project structure and presentation
 
 ---
 
-Final Improvements
+What I Implemented
 
 During this stage, I:
-- Improved notebook reflections
-- Finalised the testing section
+- Tested the project functions using valid and invalid inputs
+- Improved the final reflection section
+- Reviewed notebook outputs
 - Organised repository files
-- Reviewed project functionality
 - Completed the Developer’s Diary
 - Performed final debugging and proofreading
+- Prepared the project for final submission
 
 ---
 
 Final Reflection
 
-This project significantly improved my understanding of Python programming, project structure, debugging, and financial data analysis.
+This project significantly improved my understanding of Python programming, debugging, financial data analysis, and project structure.
 
-One of the most valuable lessons I learned was that planning and structure are extremely important during software development. Breaking the project into smaller stages made the assignment much more manageable and reduced confusion during coding.
+One of the most valuable lessons I learned was that planning and organisation are extremely important during software development. Breaking the assignment into smaller development stages made the project more manageable and reduced confusion throughout coding.
 
-I also gained a better understanding of how AI tools can support learning and development responsibly. AI assistance helped explain concepts and support debugging, but I still needed to understand, modify, test, and integrate the code myself.
+I also improved my understanding of debugging and validation. Throughout development, I encountered issues involving CSV loading, file handling, and function integration. Solving these problems helped me better understand how notebook environments and Python applications operate.
 
-Overall, this project improved my confidence in programming and helped me better understand how technology can be used to solve practical business and finance problems.
+Another important learning experience was understanding how AI tools can support programming and learning responsibly. AI assistance helped explain concepts, improve readability, support debugging, and organise the development workflow. However, I still needed to understand, modify, test, and integrate the code myself to ensure the project worked correctly.
+
+Overall, this project improved my confidence in Python programming and helped me better understand how programming can be used to solve practical business and finance problems.
 
 ---
 
