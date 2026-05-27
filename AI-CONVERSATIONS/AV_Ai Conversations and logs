@@ -1,0 +1,226 @@
+AI Conversation Evidence Summary – Smart Budget Tracker Assistant
+
+I've made this document to assist the marker of my work. This document summarises the key AI-assisted development conversations that occurred throughout the development of the Smart Budget Tracker Assistant project.
+
+The summaries below can be used to:
+
+-Organise screenshots into weekly folders
+-Support the Developer’s Diary
+-Match AI interactions to repository progress
+-Demonstrate authentic AI-assisted development
+
+Week 10 – Project Planning, Repository Setup, and Financial Analysis
+
+Conversation 1 – Understanding the Assignment Requirements
+Key Discussion
+
+Broke down the assignment requirements
+
+Explained the deliverables:
+
+GitHub repository
+Python application
+Developer’s Diary
+AI evidence packages
+Discussed how the project should be structured
+Decided to build a Smart Budget Tracker Assistant
+
+Important Learning
+
+The assignment was not only about coding functionality
+Reflection, testing, commits, and documentation were equally important
+Building the project progressively was the safest strategy
+
+
+Conversation 2 – Building the Project Development Plan
+
+Key Discussion
+Created a nightly development roadmap
+Planned the project across multiple weeks
+Organised the workflow into:
+Repository setup
+CSV analysis
+Budget tracking
+Chatbot development
+Gradio integration
+Testing
+Final polish
+
+Important Learning
+
+Large programming projects become easier when broken into smaller stages
+Consistent commits and gradual development improve project quality
+
+Conversation 3 – README and Repository Structure
+Key Discussion
+
+Explained the difference between:
+README.md
+Project planning document
+Developer’s Diary
+Built the repository structure
+Improved README formatting and professionalism
+
+Important Learning
+README files should explain the project publicly
+Planning documents explain development strategy and logic
+Repository organisation improves clarity and professionalism
+
+Conversation 4 – CSV Loading and Data Processing
+Key Discussion
+
+Built the CSV upload and loading section
+
+Implemented data cleaning and validation
+Created spending analysis functions
+Added charts and financial visualisations
+
+Important Learning
+Learned how Pandas DataFrames work
+Learned how to validate and clean financial data
+Learned how to group and analyse spending categories
+
+Conversation 5 – CSV Debugging in Google Colab
+
+Key Discussion
+Encountered FileNotFoundError in Colab
+Debugged CSV loading issues
+Solved the problem using manual file upload
+
+Error Encountered
+FileNotFoundError: No such file or directory
+
+FileNotFoundError: No such file or directory
+
+Solution Implemented
+
+Uploaded CSV manually into Colab
+Loaded the uploaded filename dynamically
+Improved file handling reliability
+
+Important Learning
+Learned how Colab handles uploaded files
+Learned why GitHub file paths may not automatically work in notebook environments
+Learned the importance of debugging file handling issues
+
+
+Week 11 – Savings Calculator, Chatbot, RAG, and Gradio Development
+
+Conversation 6 – Savings Goal Calculator Development
+
+Key Discussion
+Built the savings goal calculator
+Added validation for invalid values
+Added financial feedback messages
+
+Important Learning
+Learned how functions improve code reuse
+Learned how validation prevents runtime errors
+Learned how user-friendly outputs improve application quality
+
+
+Conversation 7 – Building the Finance Chatbot
+
+Key Discussion
+Built a beginner-level finance chatbot
+Used keyword matching and conditional logic
+Added transaction-aware chatbot responses
+
+Important Learning
+Learned how keyword matching can simulate chatbot behaviour
+Learned how chatbot responses can use calculated transaction data
+Learned how user-focused feedback improves usability
+
+Conversation 8 – RAG-Style Retrieval Development
+
+Key Discussion
+Built a simple retrieval system using transaction data
+Allowed the assistant to answer category-specific spending questions
+Combined retrieval logic with chatbot responses
+
+Important Learning
+Learned the concept of retrieval before response generation
+Learned how transaction data can support chatbot functionality
+Learned how functions can work together inside one system
+
+Conversation 9 – Building the Gradio Interface
+
+Key Discussion
+
+Built the interactive Gradio application
+Added:
+Finance chatbot tab
+Savings calculator tab
+Budget tracker tab
+Spending summary tab
+Combined all features into one interface
+
+Important Learning
+Learned how functions can connect to user interfaces
+Learned how Gradio turns notebook code into an interactive app
+Learned how multiple application features can work together
+
+Conversation 10 – Testing and Validation
+
+Key Discussion
+
+Built the testing section
+Tested:
+Total spending calculations
+Category calculations
+Budget tracker
+Savings calculator
+Chatbot responses
+RAG retrieval
+Added invalid input testing
+
+Important Learning
+Learned the importance of testing both valid and invalid inputs
+Learned how assertions can confirm expected program behaviour
+Learned how debugging improves reliability
+
+Conversation 11 – Improving the Final Reflection
+
+Key Discussion
+Expanded the final reflection section
+Improved authenticity and detail
+Added discussion about:
+planning
+debugging
+AI collaboration
+confidence development
+
+Important Learning
+Reflection should explain growth and development
+AI should be described as a learning/support tool rather than an automatic solution
+Reflection quality improves professionalism
+
+Conversation 12 – Rebuilding the Developer’s Diary
+
+Key Discussion
+Reworked the diary timeline to start at Week 10
+Improved diary realism and consistency
+Added detailed development summaries and reflections
+
+Important Learning
+Authentic project progression matters more than artificial timelines
+Reflections should match repository commits and development stages
+AI evidence should support the development narrative
+
+
+
+Conversation 13 – Project Progress and Confidence Discussion
+
+Key Discussion
+Discussed project completion percentage
+Reviewed overall project quality
+Discussed expected marks and strengths
+Reflected on project progression from confusion to completion
+
+Important Learning
+Breaking the assignment into stages reduced stress significantly
+Consistent effort produced stronger results than last-minute rushing
+Reflection and documentation are important components of software projects
+
+
+
